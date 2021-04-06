@@ -9,7 +9,7 @@ const CarouselItem = ({ cover, name, description, followers }) => {
   return (
     <>
       <Link href="/playlist">
-        <a className={styles.link}>
+        {/* <a className={styles.link}>
           <article className={styles.CarouselItem}>
           <figure className={styles.CarouselItem__imageContainer}>
             <div className={styles.CarouselItem__gradient}></div>
@@ -24,7 +24,7 @@ const CarouselItem = ({ cover, name, description, followers }) => {
           <p className={styles.CarouselItem__description}>{description}</p>
           <p className={styles.CarouselItem__description}>{followers ? followers : ''} <span>{followers ? 'seguidores' : 'made for Felipe Merchan'}</span></p>
         </article>
-        </a>
+        </a> */}
       </Link>
     </>
   )

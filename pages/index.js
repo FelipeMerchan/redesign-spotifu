@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <main className={styles.Home}>
         <h1>Inicio</h1>
-        <Playlists title="Top playlists">
+        {/* <Playlists title="Top playlists">
           <Carousel>
             {
               data.topPlaylist.map(playlist =>
@@ -24,8 +24,8 @@ const Home = () => {
               )
             }
           </Carousel>
-        </Playlists>
-        <Playlists title="Escuchado recientemente">
+        </Playlists> */}
+        {/* <Playlists title="Escuchado recientemente">
           <Carousel>
             {
               data.escuchadoRecientemente.map(playlist =>
@@ -36,7 +36,7 @@ const Home = () => {
               )
             }
           </Carousel>
-        </Playlists>
+        </Playlists> */}
       </main>
     </>
   )

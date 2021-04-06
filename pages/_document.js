@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head>
           <meta name="robots" content="index,follow" />
           <meta name="description" content="" />
-          <meta name="keywords" content="Películas, online, estrenos, streaming" />
+          <meta name="keywords" content="Música, playlist, streaming" />
         </Head>
         <body>
           <Main />

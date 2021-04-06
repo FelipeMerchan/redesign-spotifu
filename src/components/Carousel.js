@@ -37,11 +37,11 @@ const Carousel = ({ children }) => {
   };
 
   return (
-    <section>
+    {/* <section>
       <Slider {...settings}>
         {children}
       </Slider>
-    </section>
+    </section> */}
   )
 }
 
