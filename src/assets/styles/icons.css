@@ -1,14 +1,96 @@
-[class^='icon-'], [class*=' icon-'] {
-  display: inline-block;
-  inline-size: 5rem;
-  block-size: 5rem;
-  background-size: cover;
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?k8gip5');
+  src:  url('../fonts/icomoon.eot?k8gip5#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?k8gip5') format('truetype'),
+        url('../fonts/icomoon.woff?k8gip5') format('woff'),
+        url('../fonts/icomoon.svg?k8gip5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
-.icon-home {
-  background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617773086/spotifu/icons/home_mrgwg9.svg');
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-home-active {
-  background-image: url('https://res.cloudinary.com/dy1xcx7kw/image/upload/v1617773086/spotifu/icons/home-active_hrsrcw.svg');
+.icon-addPlus:before {
+  content: "\e900";
+}
+.icon-arrowLeft:before {
+  content: "\e901";
+}
+.icon-arrowRight:before {
+  content: "\e902";
+}
+.icon-calendar:before {
+  content: "\e903";
+}
+.icon-clock:before {
+  content: "\e904";
+}
+.icon-close:before {
+  content: "\e905";
+}
+.icon-creditCard:before {
+  content: "\e906";
+}
+.icon-download:before {
+  content: "\e907";
+}
+.icon-heart:before {
+  content: "\e908";
+}
+.icon-home:before {
+  content: "\e909";
+}
+.icon-homeActive:before {
+  content: "\e90a";
+}
+.icon-library:before {
+  content: "\e90b";
+}
+.icon-libraryActive:before {
+  content: "\e90c";
+}
+.icon-music:before {
+  content: "\e90d";
+}
+.icon-next:before {
+  content: "\e90e";
+}
+.icon-pause:before {
+  content: "\e90f";
+}
+.icon-play:before {
+  content: "\e910";
+}
+.icon-prev:before {
+  content: "\e911";
+}
+.icon-round:before {
+  content: "\e912";
+}
+.icon-search:before {
+  content: "\e913";
+}
+.icon-searchActive:before {
+  content: "\e914";
+}
+.icon-volumeDown:before {
+  content: "\e915";
+}
+.icon-volumeOff:before {
+  content: "\e916";
+}
+.icon-volumeUp:before {
+  content: "\e917";
 }

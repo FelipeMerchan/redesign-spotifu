@@ -6,8 +6,11 @@ const Home = () => {
   return (
     <>
       <main>
-        <i className="icon-home"></i>
-        <i className="icon-home-active"></i>
+        <button>
+          <i className="icon-home"></i>
+        </button>
+        <p>Lorem </p>
+        <i className="icon-homeActive"></i>
       </main>
     </>
   )
