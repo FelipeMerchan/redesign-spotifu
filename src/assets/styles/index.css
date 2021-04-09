@@ -2,6 +2,7 @@
 @import './fonts.css';
 @import './components/body.css';
 @import './components/link.css';
+@import './components/button-icon.css';
 
 :root {
   /* Colors */

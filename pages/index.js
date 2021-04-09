@@ -6,12 +6,9 @@ const Home = () => {
   return (
     <>
       <main>
-        <button>
-          <i className="icon-home"></i>
+        <button className="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+          <i className="icon-play" aria-hidden="true"></i>
         </button>
-        <p>Lorem </p>
-        <i className="icon-homeActive"></i>
-        <a href="#" className="link">Conocer más</a>
       </main>
     </>
   )
