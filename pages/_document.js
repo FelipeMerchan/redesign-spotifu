@@ -9,7 +9,7 @@ class MyDocument extends Document {
           <meta name="description" content="" />
           <meta name="keywords" content="Música, playlist, streaming" />
         </Head>
-        <body>
+        <body className="body">
           <Main />
           <NextScript />
         </body>

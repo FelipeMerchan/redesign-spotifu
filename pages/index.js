@@ -11,6 +11,7 @@ const Home = () => {
         </button>
         <p>Lorem </p>
         <i className="icon-homeActive"></i>
+        <a href="#" className="link">Conocer más</a>
       </main>
     </>
   )
