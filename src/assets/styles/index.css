@@ -3,6 +3,7 @@
 @import './components/body.css';
 @import './components/link.css';
 @import './components/button-icon.css';
+@import './components/logo.css';
 
 :root {
   /* Colors */
