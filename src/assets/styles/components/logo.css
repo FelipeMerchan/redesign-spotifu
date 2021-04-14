@@ -1,6 +1,6 @@
 .logo {
-  padding-inline-start: 1rem;
-  padding-inline-end: 1rem;
+  padding-inline-start: var(--space2);
+  padding-inline-end:   var(--space2);
 }
 
 .logo-image {
