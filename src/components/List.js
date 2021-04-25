@@ -44,7 +44,7 @@ const List = () => {
           <li className="list-item">
             <Link href="/">
               <a className="link" aria-current="page">
-                Naruto al 100% para progr…
+                Naruto al 100% para programar
               </a>
             </Link>
           </li>

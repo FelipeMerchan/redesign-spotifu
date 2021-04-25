@@ -3,9 +3,7 @@
 @import './components/body.css';
 @import './components/link.css';
 @import './components/button-icon.css';
-@import './components/logo.css';
-@import './components/list.css';
-@import './components/menu.css';
+@import './components/sidebar.css';
 
 :root {
   /* Colors */

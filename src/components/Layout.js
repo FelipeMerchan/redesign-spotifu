@@ -1,15 +1,11 @@
 import React from 'react'
 
-import Logo from './Logo'
-import Menu from './Menu'
-import List from './List'
+import Sidebar from './Sidebar'
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <Logo />
-      <Menu />
-      <List />
+      <Sidebar />
       <div>
         {children}
       </div>
