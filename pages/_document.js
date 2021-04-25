@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
+          <title>Spotifu</title>
           <meta name="robots" content="index,follow" />
           <meta name="description" content="Interfaz de Spotifu, una de las apps más famosas de la industria musical." />
           <meta name="keywords" content="Música, playlist, streaming" />
