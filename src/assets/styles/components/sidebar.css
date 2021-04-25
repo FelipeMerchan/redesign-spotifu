@@ -1,6 +1,7 @@
 @import './logo.css';
 @import './list.css';
 @import './menu.css';
+@import './ellipsis.css';
 
 .sidebar {
   display: flex;
