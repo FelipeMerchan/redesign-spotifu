@@ -6,7 +6,7 @@ import data from '../data.json'
 
 const Playlist = () => {
   return (
-    <main className={styles.Playlist}>
+    <main className="">
       {/* <PlaylistHeader {...data.topPlaylist[0]} />
       <DataTable data={data} /> */}
     </main>
