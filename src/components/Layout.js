@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Sidebar from './Sidebar'
+import Slider from './Slider'
 
 const Layout = ({ children }) => {
   return (
@@ -8,6 +9,7 @@ const Layout = ({ children }) => {
       <Sidebar />
       <div>
         {children}
+        <Slider />
       </div>
     </div>
   )
