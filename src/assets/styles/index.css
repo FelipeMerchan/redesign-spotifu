@@ -5,6 +5,8 @@
 @import './components/button-icon.css';
 @import './components/sidebar.css';
 @import './components/slider.css';
+@import './components/player-controls.css';
+@import './components/player-playback.css';
 
 :root {
   /* Colors */
@@ -27,6 +29,7 @@
   --small: 400 .75em/normal var(--baseFontFamily);
 
   /* Spacing */
+  --spaceHalf: .25rem;
   --space: .5rem;
   --space2: 1rem;
   --space3: 1.5rem;

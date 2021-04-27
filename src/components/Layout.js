@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Sidebar from './Sidebar'
-import Slider from './Slider'
+import PlayerControls from './PlayerControls'
 
 const Layout = ({ children }) => {
   return (
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <Sidebar />
       <div>
         {children}
-        <Slider />
+        <PlayerControls />
       </div>
     </div>
   )
