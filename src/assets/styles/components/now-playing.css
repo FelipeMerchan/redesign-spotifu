@@ -1,0 +1,33 @@
+.nowPlaying {
+  display: flex;
+  gap: var(--space);
+}
+
+.nowPlaying-cover {
+  margin: 0;
+}
+
+.nowPlaying-cover img {
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+  vertical-align: top;
+}
+
+.nowPlaying-details {
+  display: flex;
+  align-items: center;
+  gap: var(--space3);
+}
+
+.nowPlaying-title {
+  display: block;
+  font: var(--baseFontBold);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.nowPlaying-artist {
+  font: var(--small);
+  color: var(--gray10);
+  text-decoration: none;
+}
