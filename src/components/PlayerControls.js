@@ -1,11 +1,12 @@
 import React from 'react'
 
 import PlayerPlayback from './PlayerPlayback'
+import PlayerVolume from './PlayerVolume'
 
 const PlayerControls = () => {
   return (
     <div className="playerControls">
-      <div className="playerControls-buttons">
+      <div className="playerControls-buttons" aria-label="Controles de reproducción">
         <button className="buttonIcon" aria-label="Anterior" title="Anterior">
           <i className="icon-prev" aria-hidden="true"></i>
         </button>
@@ -17,6 +18,7 @@ const PlayerControls = () => {
         </button>
       </div>
       <PlayerPlayback />
+      <PlayerVolume />
     </div>
   )
 }
