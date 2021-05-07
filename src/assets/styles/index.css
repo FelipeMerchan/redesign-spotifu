@@ -9,6 +9,7 @@
 @import './components/player-playback.css';
 @import './components/player-volume.css';
 @import './components/player.css';
+@import './components/now-playing.css';
 
 :root {
   /* Colors */
