@@ -4,12 +4,8 @@
 @import './components/link.css';
 @import './components/button-icon.css';
 @import './components/sidebar.css';
-@import './components/slider.css';
-@import './components/player-controls.css';
-@import './components/player-playback.css';
-@import './components/player-volume.css';
+@import './components/ellipsis.css';
 @import './components/player.css';
-@import './components/now-playing.css';
 
 :root {
   /* Colors */

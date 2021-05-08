@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Sidebar from './Sidebar'
-import PlayerControls from './PlayerControls'
+import Player from './Player'
 
 const Layout = ({ children }) => {
   return (
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
       <Sidebar />
       <div>
         {children}
-        <PlayerControls />
+        <Player />
       </div>
     </div>
   )
