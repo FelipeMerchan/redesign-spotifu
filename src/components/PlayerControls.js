@@ -1,8 +1,6 @@
 import React from 'react'
-import NowPlaying from './NowPlaying'
 
 import PlayerPlayback from './PlayerPlayback'
-import PlayerVolume from './PlayerVolume'
 
 const PlayerControls = () => {
   return (
@@ -18,9 +16,7 @@ const PlayerControls = () => {
           <i className="icon-next" aria-hidden="true"></i>
         </button>
       </div>
-      <NowPlaying />
       <PlayerPlayback />
-      <PlayerVolume />
     </div>
   )
 }
