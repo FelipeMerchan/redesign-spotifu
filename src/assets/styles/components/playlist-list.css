@@ -1,0 +1,25 @@
+.playlistList {
+
+}
+
+.playlistList-top {
+  padding-block-start: var(--space);
+  padding-block-end:   var(--space);
+  margin-block-end: var(--space2);
+}
+
+.playlistList-title {
+  margin: 0;
+  font: var(--headline2);
+  color: var(--white);
+}
+
+.playlistList-wrapper {
+  display: flex;
+  overflow-x: auto;
+  gap: var(--space2);
+}
+
+.playlistList-wrapper > * {
+  flex-shrink: 0;
+}
