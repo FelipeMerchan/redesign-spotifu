@@ -8,6 +8,7 @@
 @import './components/player.css';
 @import './components/playlist-a.css';
 @import './components/playlist-b.css';
+@import './components/playlist-list.css';
 
 :root {
   font-size: 16px;
