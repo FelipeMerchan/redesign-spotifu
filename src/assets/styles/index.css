@@ -7,8 +7,10 @@
 @import './components/ellipsis.css';
 @import './components/player.css';
 @import './components/playlist-a.css';
+@import './components/playlist-b.css';
 
 :root {
+  font-size: 16px;
   /* Colors */
   --primary: #00B050;
   --white: #fff;
