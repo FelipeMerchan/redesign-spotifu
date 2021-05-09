@@ -28,9 +28,11 @@
 }
 
 .playlistB-details {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2.5rem;
   align-items: center;
   gap: var(--space);
+  inline-size: 100%;
   padding: var(--space2);
 }
 

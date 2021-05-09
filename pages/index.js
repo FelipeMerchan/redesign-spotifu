@@ -10,21 +10,27 @@ const Home = () => {
     <>
       <main>
         <PlaylistList region="region1" title="Buenas noches">
-          <PlaylistB />
-          <PlaylistB />
-          <PlaylistB />
-          <PlaylistB />
-          <PlaylistB />
+          {
+            data.topPlaylist.map(playlist =>
+              <PlaylistB
+                key={playlist.id}
+                cover={playlist.cover}
+                name={playlist.name}
+              />
+            )
+          }
         </PlaylistList>
         <PlaylistList region="region2" title="Escuchado recientemente">
-          <PlaylistA />
-          <PlaylistA />
-          <PlaylistA />
-          <PlaylistA />
-          <PlaylistA />
-          <PlaylistA />
-          <PlaylistA />
-          <PlaylistA />
+          {
+            data.escuchadoRecientemente.map(playlist =>
+              <PlaylistA
+                key={playlist.id}
+                cover={playlist.cover}
+                name={playlist.name}
+                description={playlist.description}
+              />
+            )
+          }
         </PlaylistList>
       </main>
     </>
