@@ -6,6 +6,7 @@
 @import './components/sidebar.css';
 @import './components/ellipsis.css';
 @import './components/player.css';
+@import './components/playlist-a.css';
 
 :root {
   /* Colors */
