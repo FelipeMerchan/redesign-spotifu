@@ -4,7 +4,7 @@
   padding: var(--space2);
   background-color: var(--gray40);
   border-radius: var(--spaceHalf);
-  transition: .3s background;
+  transition: .3s background-color;
 }
 
 .playlistA:hover,
@@ -28,6 +28,8 @@
 }
 
 .playlistA-cover img {
+  inline-size: 100%;
+  block-size: auto;
   vertical-align: middle;
 }
 
