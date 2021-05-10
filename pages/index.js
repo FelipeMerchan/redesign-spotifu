@@ -4,12 +4,14 @@ import data from '../data.json'
 import PlaylistA from '../src/components/PlaylistA'
 import PlaylistB from '../src/components/PlaylistB'
 import PlaylistList from '../src/components/PlaylistList'
+import Navigation from '../src/components/Navigation'
 import Search from '../src/components/Search'
 
 const Home = () => {
   return (
     <>
       <main>
+      <Navigation />
         <Search />
         <PlaylistList region="region1" title="Buenas noches">
           {
