@@ -4,15 +4,15 @@ import data from '../data.json'
 import PlaylistA from '../src/components/PlaylistA'
 import PlaylistB from '../src/components/PlaylistB'
 import PlaylistList from '../src/components/PlaylistList'
-import Navigation from '../src/components/Navigation'
-import Search from '../src/components/Search'
+import Header from '../src/components/Header'
 
 const Home = () => {
   return (
     <>
+      <div className="sticky">
+        <Header />
+      </div>
       <main>
-      <Navigation />
-        <Search />
         <PlaylistList region="region1" title="Buenas noches">
           {
             data.topPlaylist.map(playlist =>
