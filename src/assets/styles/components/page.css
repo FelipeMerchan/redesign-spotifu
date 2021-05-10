@@ -18,6 +18,6 @@
 
 .page .header {
   margin-block-end: var(--space4);
-  margin-inline-start: -2rem;
-  margin-inline-end: -2rem;
+  margin-inline-start: -1.5rem;
+  margin-inline-end: -1.5rem;
 }
