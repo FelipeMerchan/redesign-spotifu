@@ -5,14 +5,11 @@
 @import './now-playing.css';
 
 .player {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: var(--space3);
   padding: var(--space2);
   box-shadow: inset 0 1px 0 var(--gray30);
-}
-
-.player > * {
-  flex: 1;
 }
 
 .player-control {

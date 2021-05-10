@@ -5,11 +5,11 @@ import Slider from './Slider'
 const PlayerPlayback = () => {
   return (
     <div className="playerPlayback">
-      <span className="playerPlayback-progressTime">01:40</span>
+      <span className="playerPlayback-progressTime">00:33</span>
       <div className="playerPlayback-slider">
         <Slider />
       </div>
-      <span className="playerPlayback-progressTime">03:25</span>
+      <span className="playerPlayback-progressTime">02:59</span>
     </div>
   )
 }

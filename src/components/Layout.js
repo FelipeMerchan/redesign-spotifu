@@ -5,12 +5,14 @@ import Player from './Player'
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="layout">
       <Sidebar />
-      <div>
+      <div className="layout-main">
         {children}
-        <Player />
       </div>
+      <footer className="layout-bottom">
+        <Player />
+      </footer>
     </div>
   )
 }

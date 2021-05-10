@@ -10,4 +10,5 @@
   padding-block-start: var(--space3);
   padding-block-end:   var(--space3);
   background: var(--gray60);
+  overflow-y: auto;
 }
