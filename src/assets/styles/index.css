@@ -39,3 +39,9 @@
   --space4: 2rem;
   --space5: 2.5rem;
 }
+
+@media screen and (min-width: 1367px) {
+  :root {
+    font-size: 20px;
+  }
+}

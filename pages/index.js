@@ -39,7 +39,7 @@ const Home = () => {
               )
             }
           </PlaylistList>
-          <PlaylistList region="region2" title="Escuchado recientemente">
+          <PlaylistList region="region3" title="Future House">
             {
               data.escuchadoRecientemente.map(playlist =>
                 <PlaylistA
